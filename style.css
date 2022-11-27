@@ -12,9 +12,8 @@ html {
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     min-height: 100vh;
     background-color: hsl(30, 38%, 92%);
     font-size: 1.4rem;
@@ -27,6 +26,7 @@ main {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     overflow: hidden;
+    transform: scale(.8);
 }
 
 .img-perfume img{
